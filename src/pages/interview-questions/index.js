@@ -1,3 +1,4 @@
+import ContactForm from "../../components/ContactForm";
 import AgeCalculator from "../../components/AgeCalculator";
 import ChipsInput from "../../components/ChipsInput";
 
@@ -6,6 +7,7 @@ const InterviewQuestionsPage = () => {
     <div className="">
       <ChipsInput />
       <AgeCalculator />
+      <ContactForm />
     </div>
   );
 };
