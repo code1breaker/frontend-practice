@@ -46,7 +46,7 @@ const AgeCalculator = () => {
     setAge({ date: ageInDate, month: ageInMonth, year: ageInYear });
   };
   return (
-    <div className="p-4">
+    <div>
       <h1>Age Calculator</h1>
       <div>
         <label>Enter/Select a birthdate:</label>

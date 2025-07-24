@@ -24,7 +24,7 @@ const ChipsInput = () => {
 
   return (
     <>
-      <div className="p-4">
+      <div>
         <h1>Chips Input</h1>
         <input
           type="text"

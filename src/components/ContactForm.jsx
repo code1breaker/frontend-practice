@@ -36,7 +36,7 @@ const ContactForm = () => {
     setSuccess(true);
   };
   return (
-    <div className="p-4">
+    <div>
       {!success ? (
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name :</label>
@@ -47,6 +47,7 @@ const ContactForm = () => {
               value={form?.name}
               name="name"
               onChange={handleChange}
+              className="border-2"
             />
             {error?.name && <p style={{ color: "red" }}>{error?.name}</p>}
           </div>
@@ -58,6 +59,7 @@ const ContactForm = () => {
               value={form?.email}
               name="email"
               onChange={handleChange}
+              className="border-2"
             />
             {error?.email && <p style={{ color: "red" }}>{error?.email}</p>}
           </div>
@@ -68,6 +70,7 @@ const ContactForm = () => {
               value={form?.message}
               name="message"
               onChange={handleChange}
+              className="border-2"
             />
             {error?.message && <p style={{ color: "red" }}>{error?.message}</p>}
           </div>
