@@ -2,6 +2,7 @@ import ContactForm from "../../components/ContactForm";
 import AgeCalculator from "../../components/AgeCalculator";
 import ChipsInput from "../../components/ChipsInput";
 import MultiSelectDropdown from "../../components/MultiSelectDropdown";
+import ListSorter from "../../components/ListSorter";
 
 const InterviewQuestionsPage = () => {
   return (
@@ -10,6 +11,7 @@ const InterviewQuestionsPage = () => {
       <AgeCalculator />
       <ContactForm />
       <MultiSelectDropdown />
+      <ListSorter />
     </div>
   );
 };
